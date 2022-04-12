@@ -291,7 +291,7 @@ modbus:
 
 {% configuration %}
 data_type:
-  description: Response representation (int8, int16, int32, int64, uint8, uint16, uint32, uint64, float16, float32, float64, string). `int/uint`are silently converted to `int16/uint16`.
+  description: Response representation (int8, int16, int32, int64, uint8, uint16, uint32, uint64, float16, float32, float64, string). `int/uint`are not converted to `int16/uint16` anymore.
   required: false
   type: string
   default: int16
